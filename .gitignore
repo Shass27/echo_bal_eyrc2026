@@ -1,0 +1,151 @@
+# Arduino/ESP32 Build Artifacts
+build/
+*.elf
+*.bin
+*.hex
+*.ino.map
+*.o
+*.a
+*.d
+
+# Arduino IDE
+*.ino~
+sketch_*/
+arduino_build_*/
+
+# VS Code
+.vscode/settings.json
+.vscode/launch.json
+.vscode/extensions.json
+.vscode/*.json
+!.vscode/extensions.json
+*.code-workspace
+.DS_Store
+
+# Arduino/PlatformIO
+.pio/
+.platformio/
+*.pyc
+platformio.ini.bak
+.platformio/
+
+# CopelliaSim
+*.ttt~
+*.ttm~
+*_backups/
+*_autosaves/
+simulations/backups/
+*.sim~
+__pycache__/
+*.luac
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE & Editor
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.c9/
+*.sublime-workspace
+.env
+
+# OS - macOS
+.DS_Store
+.DS_Store?
+._*
+.AppleDouble/
+.LSOverride
+.Spotlight-V100
+.Trashes
+.TemporaryItems
+
+# OS - Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+$RECYCLE.BIN/
+*.lnk
+~$*
+.~lock.*
+
+# OS - Ubuntu/Linux
+.directory
+*~
+core
+core.*
+.swp
+.swo
+*.swp
+*.swo
+
+# Build & Compile
+*.o
+*.a
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.out
+
+# Dependency locks (optional - uncomment if needed)
+# package-lock.json
+# yarn.lock
+
+# Temporary/Debug files
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+
+# Serial Monitor logs
+*.log.txt
+
+# Local configuration (if any)
+local_config.h
+secrets.h
+config.local.cpp
+
+# Windows system temp files
+*.tmp
+Thumbs.db.bak
+*.cab
+*.msi
+
+# Linux temp directories
+/tmp/
+/var/tmp/
+
+# Misc temp/cache
+.cache/
+.local/
+*.cache
+.vscode-server/
+.ssh/
